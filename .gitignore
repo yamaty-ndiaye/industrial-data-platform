@@ -1,0 +1,28 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+*.json.key
+credentials/
+
+# Données
+data/raw/
+data/generated/
+*.parquet
+
+# Spark / Delta
+spark-warehouse/
+metastore_db/
+derby.log
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Système
+.DS_Store
+Thumbs.db
